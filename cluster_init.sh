@@ -154,7 +154,7 @@ net.core.somaxconn = 65535
 net.bridge.bridge-nf-call-iptables = 1
 net.bridge.bridge-nf-call-ip6tables = 1
 net.bridge.bridge-nf-call-arptables = 1
-net.ipv6.conf.all.disable_ipv6=1
+net.ipv6.conf.all.disable_ipv6=0
 
 # conntrack优化
 net.netfilter.nf_conntrack_tcp_be_liberal = 1 # 容器环境下, 开启这个参数可以避免 NAT 过的 TCP 连接 带宽上不去。
